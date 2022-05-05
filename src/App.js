@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import Calculator from './components/Calculator/';
-import Header from './componenents/Header';
-import FormTips from './componenents/FormTips';
-import GeneralInput from './componenents/GeneralInput';
-import Result from './componenents/Result';
-import Tips from './componenents/Tips';
+import Header from './components/Header';
+import FormTips from './components/FormTips';
+import GeneralInput from './components/GeneralInput';
+import Result from './components/Result';
+import Tips from './components/Tips';
 
 export default function App() {
   return <Calculator />;

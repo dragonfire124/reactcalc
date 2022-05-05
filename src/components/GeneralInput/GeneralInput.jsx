@@ -1,6 +1,7 @@
 import React from 'react';
-import { CustomInput } from '../CustomInput';
-export const GeneralInput = ({ label, icon }) => {
+import CustomInput from '../CustomInput';
+
+const GeneralInput = ({ label, icon }) => {
   return (
     <div className="GeneralInput">
       <div className="GeneralInput-container">
@@ -12,3 +13,5 @@ export const GeneralInput = ({ label, icon }) => {
     </div>
   );
 };
+
+export default GeneralInput;
