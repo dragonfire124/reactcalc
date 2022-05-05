@@ -1,5 +1,6 @@
 import React from 'react';
-import CustomInput from '../CustomInput';
+import CustomInput from './CustomInput';
+import './GeneralInput.scss';
 
 const GeneralInput = ({ label, icon }) => {
   return (

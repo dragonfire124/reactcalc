@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Calculator from './components/Calculator/';
+import Calculator from './components/Calculator';
 import Header from './components/Header';
 import FormTips from './components/FormTips';
 import GeneralInput from './components/GeneralInput';
@@ -28,7 +28,7 @@ const AmountByPerson = (amount, PersonNumber) => {
 };
 
 return;
-<div className="App">
+<main className="App">
   <div className="App-container">
     <div className="App-content">
       <Header />
@@ -42,4 +42,4 @@ return;
       </Calculator>
     </div>
   </div>
-</div>;
+</main>;
