@@ -2,7 +2,7 @@ import React from 'react';
 
 export const CustomInput = ({ placeholder, icon, state, setState }) => {
   const onChange = ({ target }) => {
-    console.log(taget.value);
+    console.log(target.value);
   };
 
   return (
@@ -10,7 +10,7 @@ export const CustomInput = ({ placeholder, icon, state, setState }) => {
       <div ClassName="CustomInput-container">
         <div ClassName="CustomInput-content">
           <img src={icon === 'people'} alt={placeholder} />
-          <input ClassName="InputCero" type ="number"/>
+          <input ClassName="InputCero" type="number" />
         </div>
       </div>
     </div>
