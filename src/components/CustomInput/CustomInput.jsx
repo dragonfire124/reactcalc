@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './CustomInput.scss';
 const CustomInput = ({ placeholder, icon, state, setState }) => {
   const onChange = ({ target }) => {
     console.log(target.value);
