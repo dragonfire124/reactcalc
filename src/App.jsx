@@ -32,11 +32,12 @@ export default function App() {
     <div className="App">
       <div className="App-container">
         <div className="App-content">
-          <Header/>
+          <Header />
           <Calculator>
             <FormTips>
               <GeneralInput label="Bill" icon="dolar" />
-              <Tips/>
+              <Tips />
+              <GeneralInput label="Number of People" icon="dolar" />
             </FormTips>
           </Calculator>
         </div>

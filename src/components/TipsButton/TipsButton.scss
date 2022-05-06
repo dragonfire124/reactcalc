@@ -8,5 +8,10 @@ Button {
   font-size: 21px;
   border-radius: 4px;
   border: none;
+  color: white;
 }
 
+Button:hover {
+  background-color: #2cc2ad;
+  color: black;
+}
