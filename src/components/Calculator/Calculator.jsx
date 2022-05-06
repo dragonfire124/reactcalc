@@ -3,17 +3,15 @@ import './Calculator.scss';
 import Result from '../Result';
 import FormTips from '../FormTips';
 
-const Calculator = () => {
+export const Calculator = () => {
   return (
     <div className="Calculator">
       <div className="Calculator-container">
         <div className="Calculator-content">
-          <Result />
           <FormTips />
+          <Result />
         </div>
       </div>
     </div>
   );
 };
-
-export default Calculator;
