@@ -1,5 +1,11 @@
 .GeneralInput {
-  border: black;
-  background-color: red;
+  background-color: white;
   padding: 32px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+p {
+  font-size: 15px;
 }

@@ -36,6 +36,7 @@ export default function App() {
           <Calculator>
             <FormTips>
               <GeneralInput label="Bill" icon="dolar" />
+              <Tips/>
             </FormTips>
           </Calculator>
         </div>

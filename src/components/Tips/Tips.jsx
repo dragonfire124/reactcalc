@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tips.scss';
-import { TipsButton } from '..TipsButton';
+import TipsButton from '../TipsButton';
 
 const TipsPercent = [
   { tip: 5 },
@@ -8,7 +8,6 @@ const TipsPercent = [
   { tip: 15 },
   { tip: 25 },
   { tip: 50 },
-  { tip: custom },
 ];
 
 const Tips = () => {
@@ -16,6 +15,7 @@ const Tips = () => {
     <div className="Tips">
       <div className="Tips-container">
         <div className="Tips-content">
+          <p>Select Tip</p>
           {TipsPercent.map((item) => (
             <TipsButton key={item.tip} item={item.tip} />
           ))}
