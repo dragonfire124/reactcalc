@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Result.scss';
 
-const Result =()=>{
-    return(
-        <p>Results</p>
-    )
-}
+const Result = ({ children }) => {
+  return (
+    <div className="Result">
+      <div className="Result-container">{children}</div>
+    </div>
+  );
+};
 
-export default Result;  
+export default Result;
