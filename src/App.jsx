@@ -32,13 +32,18 @@ export default function App() {
     <div className="App">
       <div className="App-container">
         <div className="App-content">
-          <Calculator />
+          <Calculator>
+            <FormTips>
+              <GeneralInput label="Bill" icon="dolar" />
+            </FormTips>
+          </Calculator>
         </div>
       </div>
     </div>
   );
 
-  /* 
+  {
+    /* 
           <FormTips>
             <GeneralInput label="Bill" icon="dolar" />
             <Tips />
@@ -73,4 +78,5 @@ export default function App() {
     </div>
   </main>;
 } */
+  }
 }
