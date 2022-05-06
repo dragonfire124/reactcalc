@@ -16,6 +16,7 @@ const Tips = () => {
       <div className="Tips-container">
         <div className="Tips-content">
           <p>Select Tip</p>
+
           {TipsPercent.map((item) => (
             <TipsButton key={item.tip} item={item.tip} />
           ))}
