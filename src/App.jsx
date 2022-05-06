@@ -24,27 +24,20 @@ const AmountByPerson = (amount, PersonNumber) => {
 };
 
 export default function App() {
-  {
-    /*const [tips, setTips] = React.useState(0);
+  const [tips, setTips] = React.useState(0);
   const [total, setTotal] = React.useState(0);
   const [personas, setPersonas] = React.useState(1);
-  */
-  }
-  return <Calculator />;
 
-  {
-    /*
-  <main className="App">
-    <div className="App-container">
-      <div className="App-content">
-        <Header />
-        <Calculator />
+  return (
+    <div className="App">
+      <div className="App-container">
+        <div className="App-content">
+          <Calculator />
+        </div>
       </div>
     </div>
-  </main> */
-  }
-}
-{
+  );
+
   /* 
           <FormTips>
             <GeneralInput label="Bill" icon="dolar" />

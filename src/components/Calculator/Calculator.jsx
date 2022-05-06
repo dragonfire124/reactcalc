@@ -7,7 +7,10 @@ const Calculator = () => {
   return (
     <div className="Calculator">
       <div className="Calculator-container">
-        <div className="Calculator-content"></div>
+        <div className="Calculator-content">
+          <FormTips />
+          <Result />
+        </div>
       </div>
     </div>
   );
