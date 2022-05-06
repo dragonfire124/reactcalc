@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import  Calculator  from './components/Calculator';
+import Calculator from './components/Calculator';
 import Header from './components/Header';
 import FormTips from './components/FormTips';
 import GeneralInput from './components/GeneralInput';
@@ -24,22 +24,26 @@ const AmountByPerson = (amount, PersonNumber) => {
 };
 
 export default function App() {
-  const [tips, setTips] = React.useState(0);
+  {
+    /*const [tips, setTips] = React.useState(0);
   const [total, setTotal] = React.useState(0);
   const [personas, setPersonas] = React.useState(1);
-  const [tipsByPerson, setTipsByPerson] = React.useState(0);
-  return (
-    <main className="App">
-      <div className="App-container">
-        <div className="App-content">
-          <Header />
-          <Calculator />
-        </div>
-      </div>
-    </main>
-  );
-}
+  */
+  }
+  return <Calculator />;
 
+  {
+    /*
+  <main className="App">
+    <div className="App-container">
+      <div className="App-content">
+        <Header />
+        <Calculator />
+      </div>
+    </div>
+  </main> */
+  }
+}
 {
   /* 
           <FormTips>
