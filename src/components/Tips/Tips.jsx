@@ -14,11 +14,12 @@ const Tips = () => {
   return (
     <div className="Tips">
       <div className="Tips-container">
+      <p>Select Tip</p>
         <div className="Tips-content">
-          <p>Select Tip</p>
+         
 
           {TipsPercent.map((item) => (
-            <TipsButton key={item.tip} item={item.tip} />
+            <TipsButton key={item.tip} item={item.tip}  />
           ))}
         </div>
       </div>

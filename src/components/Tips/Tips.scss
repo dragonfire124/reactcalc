@@ -1,14 +1,25 @@
 .Tips {
-  background-color: skyblue;
   display: flex;
   justify-content: center;
 }
 
 .Tips-container {
-  background-color: navy;
   width: 90%;
+  background-color: blue;
 }
 
 .Tips-content {
+  background-color: red;
   font-family: monospace;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  margin-bottom: 10px;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 10px;
 }
