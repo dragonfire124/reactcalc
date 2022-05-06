@@ -2,8 +2,8 @@ import React from 'react';
 import './FormTips.scss';
 import GeneralInput from '../GeneralInput';
 
-const FormTips = () => {
-  return <GeneralInput label="Bill" icon="dolar" />;
+const FormTips = ({ children }) => {
+  return <div FormTips>{children}</div>;
 };
 
 export default FormTips;
