@@ -1,7 +1,7 @@
 import React from 'react';
 import CustomInput from './CustomInput';
-import './GeneralInput.scss';
 
+import './GeneralInput.scss';
 const GeneralInput = ({ label, icon }) => {
   return (
     <div className="GeneralInput">

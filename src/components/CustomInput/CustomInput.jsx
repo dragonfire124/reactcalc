@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const CustomInput = ({ placeholder, icon, state, setState }) => {
+const CustomInput = ({ placeholder, icon, state, setState }) => {
   const onChange = ({ target }) => {
     console.log(target.value);
   };
@@ -16,3 +16,5 @@ export const CustomInput = ({ placeholder, icon, state, setState }) => {
     </div>
   );
 };
+
+export default CustomInput;
