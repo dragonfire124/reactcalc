@@ -32,6 +32,7 @@ export default function App() {
     <div className="App">
       <div className="App-container">
         <div className="App-content">
+          <Header/>
           <Calculator>
             <FormTips>
               <GeneralInput label="Bill" icon="dolar" />

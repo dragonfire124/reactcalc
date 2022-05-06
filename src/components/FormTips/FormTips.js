@@ -1,11 +1,9 @@
-import React    from "react"
-import "./FormTips"
+import React from 'react';
+import './FormTips.scss';
+import GeneralInput from '../GeneralInput';
 
-const FormTips =()=>{
-    return(
-        <p>FormTips</p>
-    )
+const FormTips = () => {
+  return <GeneralInput label="Bill" icon="dolar" />;
+};
 
-}
-
-export default FormTips; 
+export default FormTips;

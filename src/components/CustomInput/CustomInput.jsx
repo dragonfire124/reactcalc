@@ -6,11 +6,11 @@ const CustomInput = ({ placeholder, icon, state, setState }) => {
   };
 
   return (
-    <div ClassName="CustomInput">
-      <div ClassName="CustomInput-container">
-        <div ClassName="CustomInput-content">
+    <div className="CustomInput">
+      <div className="CustomInput-container">
+        <div className="CustomInput-content">
           <img src={icon === 'people'} alt={placeholder} />
-          <input ClassName="InputCero" type="number" />
+          <input className="InputCero" type="number" />
         </div>
       </div>
     </div>
