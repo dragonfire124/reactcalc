@@ -6,8 +6,12 @@ import FormTips from '../FormTips';
 const Calculator = () => {
   return (
     <div className="Calculator">
-      <Result />
-      <FormTips />
+      <div className="Calculator-container">
+        <div className="Calculator-content">
+          <Result />
+          <FormTips />
+        </div>
+      </div>
     </div>
   );
 };

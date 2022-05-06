@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Calculator from './components/Calculator';
 import Header from './components/Header';
 import FormTips from './components/FormTips';
