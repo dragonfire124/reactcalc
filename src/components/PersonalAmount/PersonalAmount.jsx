@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './PersonalAmount.scss';
 export const PersonalAmount = ({ label, data }) => {
   const total = 0;
   return (

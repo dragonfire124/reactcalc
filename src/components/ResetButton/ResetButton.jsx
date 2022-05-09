@@ -5,7 +5,7 @@ import './ResetButton.scss';
 export const ResetButton = () => {
   return (
     <div className="ResetButton">
-      <button>Reset</button>
+      <button id="resstbtn">Reset</button>
     </div>
   );
 };
