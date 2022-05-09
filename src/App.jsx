@@ -54,11 +54,16 @@ export default function App() {
                 setState={setState}
               />
               <Tips />
-              <GeneralInput label="Number of People" icon="dolar" />
+              <GeneralInput
+                label="Number of People"
+                icon="people"
+                state={state}
+                setState={setState}
+              />
             </FormTips>
             <Result>
               <PersonalAmount label="Tip Amount" data={state.Total} />
-              <PersonalAmount label="Total" data={state.tipsByPerson} />
+              <PersonalAmount label="Total" data={state.Total} />
             </Result>
           </Calculator>
         </div>
