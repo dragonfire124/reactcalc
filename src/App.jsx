@@ -6,6 +6,7 @@ import FormTips from './components/FormTips';
 import GeneralInput from './components/GeneralInput';
 import Result from './components/Result';
 import Tips from './components/Tips';
+import { PersonalAmount } from './components/PersonalAmount';
 
 const TipCalc = (amount, tipsAmount = 15) => {
   return amount * (tipsamount / 100);
@@ -39,7 +40,10 @@ export default function App() {
               <Tips />
               <GeneralInput label="Number of People" icon="dolar" />
             </FormTips>
-            <Result></Result>
+            <Result>
+              <PersonalAmount />
+              <PersonalAmount />
+            </Result>
           </Calculator>
         </div>
       </div>
