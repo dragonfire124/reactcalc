@@ -38,7 +38,7 @@ export default function App() {
     tipsByPerson: 0,
     AmountByPerson: 0,
   });
-  console.log('Total', state);
+  console.log('Totales', state);
 
   return (
     <div className="App">
@@ -57,7 +57,7 @@ export default function App() {
               <GeneralInput label="Number of People" icon="dolar" />
             </FormTips>
             <Result>
-              <PersonalAmount label="Tip Amount" data={state.tipsByPerson} />
+              <PersonalAmount label="Tip Amount" data={state.Total} />
               <PersonalAmount label="Total" data={state.tipsByPerson} />
             </Result>
           </Calculator>
