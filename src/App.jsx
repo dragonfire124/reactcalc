@@ -38,6 +38,7 @@ export default function App() {
     tipsByPerson: 0,
     AmountByPerson: 0,
   });
+  console.log('Total', state);
 
   return (
     <div className="App">
@@ -49,7 +50,7 @@ export default function App() {
               <GeneralInput
                 label="Bill"
                 icon="dolar"
-                Total={state.Total}
+                state={state}
                 setState={setState}
               />
               <Tips />
