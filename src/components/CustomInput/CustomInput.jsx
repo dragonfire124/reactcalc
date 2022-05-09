@@ -2,8 +2,7 @@ import React from 'react';
 import './CustomInput.scss';
 const CustomInput = ({ placeholder, icon, Total, setState }) => {
   const onChange = ({ target }) => {
-    setState({})
-
+    setState({});
   };
 
   return (
