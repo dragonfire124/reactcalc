@@ -7,6 +7,7 @@ import GeneralInput from './components/GeneralInput';
 import Result from './components/Result';
 import Tips from './components/Tips';
 import { PersonalAmount } from './components/PersonalAmount';
+import { ResetButton } from './components/ResetButton/ResetButton';
 
 const TipCalc = (amount, tipsAmount = 15) => {
   return amount * (tipsamount / 100);
@@ -64,6 +65,7 @@ export default function App() {
             <Result>
               <PersonalAmount label="Tip Amount" data={state.Total} />
               <PersonalAmount label="Total" data={state.Person} />
+              <ResetButton />
             </Result>
           </Calculator>
         </div>
