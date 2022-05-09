@@ -63,7 +63,7 @@ export default function App() {
             </FormTips>
             <Result>
               <PersonalAmount label="Tip Amount" data={state.Total} />
-              <PersonalAmount label="Total" data={state.Total} />
+              <PersonalAmount label="Total" data={state.Person} />
             </Result>
           </Calculator>
         </div>
