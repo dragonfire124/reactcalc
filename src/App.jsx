@@ -25,9 +25,19 @@ const AmountByPerson = (amount, PersonNumber) => {
 };
 
 export default function App() {
+  /*
   const [tips, setTips] = React.useState(0);
   const [total, setTotal] = React.useState(0);
   const [personas, setPersonas] = React.useState(1);
+*/
+  const [state, setState] = React.useState({
+    Total: 0,
+    Tips: 0,
+    TipsAmount: 0,
+    Person: 1,
+    tipsByPerson: 0,
+    AmountByPerson: 0,
+  });
 
   return (
     <div className="App">
@@ -41,8 +51,8 @@ export default function App() {
               <GeneralInput label="Number of People" icon="dolar" />
             </FormTips>
             <Result>
-              <PersonalAmount />
-              <PersonalAmount />
+              <PersonalAmount label="Tip Amount" data={state.tipsByPerson} />
+              <PersonalAmount label="Total" data={state.tipsByPerson} />
             </Result>
           </Calculator>
         </div>
