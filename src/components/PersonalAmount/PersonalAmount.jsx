@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const PersonalAmount = ({ label , data}) => {
+export const PersonalAmount = ({ label, data }) => {
   const total = 0;
   return (
     <div className="PersonalAmount">
@@ -9,7 +9,7 @@ export const PersonalAmount = ({ label , data}) => {
         <p>/ person</p>
       </div>
       <div className="PersonalAmountPrice">
-        <p>{total === 0 ? '$0.00 MXN' : `$ ${total} MXN`}</p>
+        <p>{data === 0 ? '$0.00 MXN' : `$ ${data} MXN`}</p>
       </div>
     </div>
   );
