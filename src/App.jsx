@@ -46,7 +46,12 @@ export default function App() {
           <Header />
           <Calculator>
             <FormTips>
-              <GeneralInput label="Bill" icon="dolar" />
+              <GeneralInput
+                label="Bill"
+                icon="dolar"
+                Total={state.Total}
+                setState={setState}
+              />
               <Tips />
               <GeneralInput label="Number of People" icon="dolar" />
             </FormTips>

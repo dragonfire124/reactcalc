@@ -1,8 +1,9 @@
 import React from 'react';
 import './CustomInput.scss';
-const CustomInput = ({ placeholder, icon, state, setState }) => {
+const CustomInput = ({ placeholder, icon, Total, setState }) => {
   const onChange = ({ target }) => {
-    console.log(target.value);
+    setState({})
+
   };
 
   return (
@@ -10,7 +11,7 @@ const CustomInput = ({ placeholder, icon, state, setState }) => {
       <div className="CustomInput-container">
         <div className="CustomInput-content">
           <img src={icon === 'people'} alt={placeholder} />
-          <input className="InputCero" type="number" />
+          <input className="InputCero" type="number" onChange={onChange} />
         </div>
       </div>
     </div>
