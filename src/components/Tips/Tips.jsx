@@ -3,7 +3,7 @@ import './Tips.scss';
 import TipsButton from '../TipsButton';
 
 const TipsPercent = [
-  { tip: 5 onclick ="porcentaje()"},
+  { tip: 5, onclick ="porcentaje(e)"},
   { tip: 10 },
   { tip: 15 },
   { tip: 25 },
