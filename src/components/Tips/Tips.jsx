@@ -3,7 +3,7 @@ import './Tips.scss';
 import TipsButton from '../TipsButton';
 
 const TipsPercent = [
-  { tip: 5, onclick ="porcentaje(e)"},
+  { tip: 5, },
   { tip: 10 },
   { tip: 15 },
   { tip: 25 },
@@ -19,7 +19,7 @@ const Tips = () => {
          
 
           {TipsPercent.map((item) => (
-            <TipsButton key={item.tip} item={item.tip}  />
+            <TipsButton key={item.tip} item={item.tip} Onclick ="porcentaje()" />
           ))}
         </div>
       </div>
