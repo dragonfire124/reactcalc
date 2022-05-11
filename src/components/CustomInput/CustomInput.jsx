@@ -1,8 +1,9 @@
 import React from 'react';
 import './CustomInput.scss';
 const CustomInput = ({ placeholder, icon, state, setState }) => {
+  const key = icon === 'people' ? 'Person' : 'Total';
   const onChange = ({ target }) => {
-    setState({ ...state, Total: target.value });
+    setState({ ...state, ` ${key}`: target.value });
   };
 
   return (
