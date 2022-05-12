@@ -1,9 +1,12 @@
 import React from 'react';
 import './CustomInput.scss';
-const CustomInput = ({ placeholder, icon, state, setState }) => {
-  const key = icon === 'people' ? 'Person' : 'Total';
+import { CalculatorContext } from '../../Context/Calculator/CalculatorContext';
+
+export const CustomInput = ({ placeholder, icon, name }) => {
+  const Context = useContext(CalculatorContext);
+
   const onChange = ({ target }) => {
-    setState({ ...state, ` ${key}`: target.value });
+    Context.setInfo(target.value, target.name);
   };
 
   return (

@@ -14,9 +14,11 @@ const initialState = {
   AmountByPerson: 0,
 };
 
-export const CalculatorContext = ({ children }) => {
+export const CalculatorProvider = ({ children }) => {
   const [state, useState] = useState(initialState);
-  return <CalculatorContext.Provider
-  value ={{state,}}
-  >{children}</CalculatorContext.Provider>;
+  return (
+    <CalculatorContext.Provider value={{ state }}>
+      {children}
+    </CalculatorContext.Provider>
+  );
 };
