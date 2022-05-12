@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './CustomInput.scss';
-import { CalculatorContext } from '../Context/Calculator/CalculatorContext';
+import { CalculatorContext } from '../../Context/Calculator/CalculatorContext';
 
 export const CustomInput = ({ placeholder, icon, name }) => {
   const Context = useContext(CalculatorContext);
