@@ -15,7 +15,7 @@ const initialState = {
 };
 
 export const CalculatorProvider = ({ children }) => {
-  const [state, useState] = useState(initialState);
+  const [state, setState] = useState(initialState);
   return (
     <CalculatorContext.Provider value={{ state }}>
       {children}
