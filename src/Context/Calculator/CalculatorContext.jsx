@@ -17,7 +17,7 @@ const initialState = {
 export const CalculatorProvider = ({ children }) => {
   const [state, setState] = useState(initialState);
 
-  const setInfo = (Info, name) => {
+  const setInfo = (nfo, name) => {
     setState({ ...state, [name]: info });
   };
   return (
