@@ -4,7 +4,7 @@ import { CalculatorContext } from '../../Context/Calculator/CalculatorContext';
 
 //import context
 
-export const CustomInput = ({ placeholder, icon, name }) => {
+const CustomInput = ({ placeholder, icon, name }) => {
   const Context = useContext(CalculatorContext);
   const onChange = ({ target }) => {
     Context.setInfo(target.value, target.name);
@@ -20,7 +20,7 @@ export const CustomInput = ({ placeholder, icon, name }) => {
             type="number"
             onChange={onChange}
             name={name}
-            value ={Context[name]}
+            value={Context[name]}
           />
         </div>
       </div>
