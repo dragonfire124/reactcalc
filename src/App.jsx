@@ -53,6 +53,7 @@ export default function App() {
                 icon="dolar"
                 state={state}
                 setState={setState}
+                name="Amount"
               />
               <Tips />
               <GeneralInput
@@ -60,6 +61,7 @@ export default function App() {
                 icon="people"
                 state={state}
                 setState={setState}
+                name="Person"
               />
             </FormTips>
             <Result>

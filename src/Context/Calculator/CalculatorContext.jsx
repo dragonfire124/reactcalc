@@ -16,11 +16,13 @@ const initialState = {
 
 export const CalculatorProvider = ({ children }) => {
   const [state, setState] = useState(initialState);
+
+  const setInfo = (Info, name) => {
+    setState({ ...state, [name]: info });
+  };
   return (
-    <CalculatorContext.Provider value={{ state }}>
+    <CalculatorContext.Provider value={{ state, setInfo }}>
       {children}
     </CalculatorContext.Provider>
   );
 };
-
-
