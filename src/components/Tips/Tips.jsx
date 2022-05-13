@@ -8,6 +8,7 @@ const TipsPercent = [
   { tip: 15 },
   { tip: 25 },
   { tip: 50 },
+  {tip:'Custom'}
 ];
 
 const Tips = () => {

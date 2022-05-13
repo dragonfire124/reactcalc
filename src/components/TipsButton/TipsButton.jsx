@@ -23,7 +23,6 @@ export const TipsButton = ({ item }) => {
   );
 };
 
-
 /*
 const TipsButton = ({ item }) => {
   return <button>{item}%</button>;
