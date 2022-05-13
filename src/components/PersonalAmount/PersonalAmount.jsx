@@ -15,7 +15,7 @@ export const PersonalAmount = ({ label }) => {
         <p>/ person</p>
       </div>
       <div className="PersonalAmountPrice">
-        <p>{show ==0? ' $0.00': show}</p>
+        <p>{show == 0 ? ' $0.00' : show}</p>
       </div>
     </div>
   );
