@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './PersonalAmount.scss';
-export const PersonalAmount = ({ label, data }) => {
-  const total = 0;
+
+import { CalculatorContext } from '../../Context/Calculator/CalculatorContext';
+
+export const PersonalAmount = ({ label }) => {
+  const { AmountByPerson, tipsByPerson } = useContext;
+  CalculatorContext;
+
+  const show = label == 'Tips' ? tipsByPerson : AmountByPerson;
   return (
     <div className="PersonalAmount">
       <div className="PersonalAmountText">
@@ -9,7 +15,7 @@ export const PersonalAmount = ({ label, data }) => {
         <p>/ person</p>
       </div>
       <div className="PersonalAmountPrice">
-        <p>{data === 0 ? '$0.00 MXN' : `$ ${data} MXN`}</p>
+        <p>{show ==0? ' $0.00': show}</p>
       </div>
     </div>
   );

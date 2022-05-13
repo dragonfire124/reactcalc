@@ -3,7 +3,7 @@ import './CustomInput.scss';
 import { CalculatorContext } from '../../Context/Calculator/CalculatorContext';
 
 //import context
-import { CalculatorContext } from '../../Context/CalculatorContext';
+import { CalculatorContext } from '../../Context/Calculator/CalculatorContext';
 
 export const CustomInput = ({ placeholder, icon, name }) => {
   const Context = useContext(CalculatorContext);
