@@ -4,10 +4,10 @@ import './PersonalAmount.scss';
 import { CalculatorContext } from '../../Context/Calculator/CalculatorContext';
 
 export const PersonalAmount = ({ label }) => {
-  const { AmountByPerson, tipsByPerson } = useContext;
-  CalculatorContext;
+  const { AmountByPerson, tipsByPerson } = useContext(CalculatorContext);
 
   const show = label == 'Tips' ? tipsByPerson : AmountByPerson;
+
   return (
     <div className="PersonalAmount">
       <div className="PersonalAmountText">
