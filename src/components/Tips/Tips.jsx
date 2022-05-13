@@ -20,7 +20,7 @@ const Tips = () => {
          
 
           {TipsPercent.map((item) => (
-            <TipsButton key={item.tip} item={item.tip} Onclick ="porcentaje()" />
+            <TipsButton key={item.tip} item={item.tip} />
           ))}
         </div>
       </div>
