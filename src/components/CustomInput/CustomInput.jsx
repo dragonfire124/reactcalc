@@ -3,7 +3,6 @@ import './CustomInput.scss';
 import { CalculatorContext } from '../../Context/Calculator/CalculatorContext';
 
 //import context
-import { CalculatorContext } from '../../Context/Calculator/CalculatorContext';
 
 export const CustomInput = ({ placeholder, icon, name }) => {
   const Context = useContext(CalculatorContext);
@@ -21,6 +20,7 @@ export const CustomInput = ({ placeholder, icon, name }) => {
             type="number"
             onChange={onChange}
             name={name}
+            value ={Context[name]}
           />
         </div>
       </div>

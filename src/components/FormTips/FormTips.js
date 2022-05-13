@@ -6,7 +6,8 @@ const FormTips = ({ children }) => {
   return (
     <div className="FormTips">
       <div className="FormTips-Container">
-        <div className="FormTips-Content">{children}</div></div>
+        <div className="FormTips-Content">{children}</div>
+      </div>
     </div>
   );
 };
