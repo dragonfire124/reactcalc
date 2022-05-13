@@ -57,8 +57,10 @@ export default function App() {
               />
             </FormTips>
             <Result>
-              <PersonalAmount label="Tip Amount" data={state.Total} />
-              <PersonalAmount label="Total" data={state.Person} />
+              <section>
+              <PersonalAmount label="Tip Amount" data={state.tipsByPerson} />
+              <PersonalAmount label="Total" data={state.AmountByPerson} />
+              </section>
               <ResetButton />
             </Result>
           </Calculator>
