@@ -58,8 +58,8 @@ export default function App() {
             </FormTips>
             <Result>
               <section>
-              <PersonalAmount label="Tip Amount" data={state.tipsByPerson} />
-              <PersonalAmount label="Total" data={state.AmountByPerson} />
+                <PersonalAmount label="Tip Amount" data={state.tipsByPerson} />
+                <PersonalAmount label="Total" data={state.AmountByPerson} />
               </section>
               <ResetButton />
             </Result>
